@@ -1,0 +1,19 @@
+[features]
+resolution = true
+skip-lint = false
+
+[programs.localnet]
+originality_storage = "4CAZ7URST3D1yMU968iZtEEerN4TCZW2eKDvDWqHSZvE"
+
+[programs.devnet]
+originality_storage = "4CAZ7URST3D1yMU968iZtEEerN4TCZW2eKDvDWqHSZvE"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/gabrielyong/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
